@@ -32,12 +32,10 @@ void loop()
   }
   else if(r==HIGH && l==LOW)
   {
-    // drive to the right
     drive(HIGH,LOW,HIGH,HIGH);
   }
   else if(r==LOW && l==HIGH)
   {
-   	// drive to the left
     drive(HIGH,HIGH,HIGH,LOW);
   }
   else if(r==LOW && l==LOW)
